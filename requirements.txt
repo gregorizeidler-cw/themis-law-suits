@@ -1,0 +1,16 @@
+fastapi
+uvicorn
+pydantic
+requests
+matplotlib
+pandas
+numpy
+openai>=0.27.0
+google-cloud-bigquery>=3.3.0
+pandas-gbq==0.19.2
+google-auth==2.27.0
+gspread==6.0.2
+google-api-python-client==2.118.0
+python-dotenv
+# Se estiver usando um módulo próprio, crie o arquivo agents.py no projeto.
+# Caso utilize uma biblioteca externa de agentes, adicione aqui o nome do pacote.

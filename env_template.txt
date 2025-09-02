@@ -1,0 +1,35 @@
+# ==========================================
+# 🔒 TEMPLATE DE CREDENCIAIS - Themis Análise de Absolvição
+# ==========================================
+# 
+# INSTRUÇÕES:
+# 1. Copie este arquivo: cp env_template.txt .env
+# 2. Substitua os valores pelos seus tokens REAIS
+# 3. NUNCA faça commit do arquivo .env
+# 4. O .gitignore já protege o arquivo .env
+#
+# ==========================================
+
+# 🤖 OpenAI API (OBRIGATÓRIO para Versão Inteligente)
+# Obtenha em: https://platform.openai.com/api-keys
+OPENAI_API_KEY=sk-proj-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+
+# 🏢 BigData Corp API (para consultas de CPF)
+# Obtenha suas credenciais em: https://bigdatacorp.com.br/
+BIGDATA_TOKEN_ID=seu_token_id_aqui
+BIGDATA_TOKEN_HASH=seu_token_hash_aqui
+
+# ☁️ Google Cloud (opcional - se usar BigQuery)
+# GOOGLE_APPLICATION_CREDENTIALS=path/to/your/google-credentials.json
+# GOOGLE_CLOUD_PROJECT=ai-services-sae
+
+# 🗃️ Database (opcional)
+# DATABASE_URL=sqlite:///./app.db
+
+# 🌐 URLs de configuração
+API_BASE_URL=http://localhost:8000
+FRONTEND_URL=http://localhost:5173
+
+# 🔧 Configurações de desenvolvimento
+DEBUG=true
+LOG_LEVEL=INFO
